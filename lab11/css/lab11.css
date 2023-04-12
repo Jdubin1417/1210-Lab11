@@ -1,0 +1,86 @@
+/*
+	Author:			your_name
+	Date:			#/#/2105
+	Assignment:		Lab 9
+	Purpose:		CSS Styling for resume page
+*/
+
+body {
+	background-size: cover;
+	font-size: 1.2em;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+div.wrapper {
+	width: 900px;
+	margin: 25px auto;
+	border: 1px solid black;
+	padding: 10px 20px;
+}
+
+nav {
+	background-color:#000;
+	color: #ccc;
+}
+
+a {
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+a:link, a:visited {
+	color: #837EB1;
+}
+
+a:hover, a:active {
+	background-color: #CCC;
+	color: #004;
+}
+
+img.l {
+	display: inline-block;
+	float: left;
+	width: 300px;
+	margin: 0 15px;
+}
+
+img.r {
+	display: inline-block;
+	float: right;
+	width: 300px;
+	margin: 0 15px;
+}
+
+img.c {
+	display: block;
+	margin: 0 auto;
+}
+
+header, footer {
+	width: 800px;
+	margin: 10px auto;
+	padding: 5px 20px;
+	height: 30px;
+}
+
+header {
+	height: auto;
+}
+
+footer{
+	border: 1px solid black;
+	color: #837EB1;
+	background-color: #000;
+}
+
+p.clr {
+	clear:both;
+	padding-left: 50px;
+	line-height: 1.3em;
+	font-size: 1.3em;
+	color: #7D5300;
+}
+
+
